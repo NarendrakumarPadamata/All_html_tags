@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All HTML Tags</title>
+</head>
+<body>
+    <header>
+        <h1>All HTML Tags Demo</h1>
+        <nav>
+            <a href="#text">Text</a> |
+            <a href="#lists">Lists</a> |
+            <a href="#media">Media</a> |
+            <a href="#forms">Forms</a> |
+            <a href="#tables">Tables</a> |
+            <a href="#other">Other</a>
+        </nav>
+    </header>
+
+    <section id="text">
+        <h2>Text Tags</h2>
+        <p>This is a <strong>paragraph</strong> with <em>emphasis</em>, <b>bold</b>, <i>italic</i>, <u>underline</u>, <mark>mark</mark>, <small>small</small>, <del>deleted</del>, <ins>inserted</ins>, <sub>subscript</sub>, and <sup>superscript</sup> text.</p>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <blockquote>This is a blockquote.</blockquote>
+        <pre>
+This is preformatted text.
+        </pre>
+        <code>&lt;code&gt;Sample code&lt;/code&gt;</code>
+        <abbr title="HyperText Markup Language">HTML</abbr>
+        <address>123 Main St, City, Country</address>
+        <cite>HTML5 Specification</cite>
+        <dfn>Definition</dfn>
+        <kbd>Ctrl + C</kbd>
+        <samp>Sample output</samp>
+        <var>x</var>
+        <hr>
+    </section>
+
+    <section id="lists">
+        <h2>List Tags</h2>
+        <ul>
+            <li>Unordered list item</li>
+            <li>Another item</li>
+        </ul>
+        <ol>
+            <li>Ordered list item</li>
+            <li>Another item</li>
+        </ol>
+        <dl>
+            <dt>Definition Term</dt>
+            <dd>Definition Description</dd>
+        </dl>
+    </section>
+
+    <section id="media">
+        <h2>Media Tags</h2>
+        <img src="https://via.placeholder.com/100" alt="Placeholder Image">
+        <figure>
+            <img src="https://via.placeholder.com/150" alt="Figure Image">
+            <figcaption>Figure caption</figcaption>
+        </figure>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <video width="200" controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <br>
+        <iframe src="https://www.example.com" width="200" height="100" title="Example"></iframe>
+        <hr>
+    </section>
+
+    <section id="forms">
+        <h2>Form Tags</h2>
+        <form>
+            <label for="text">Text:</label>
+            <input type="text" id="text" name="text"><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br>
+            <label for="checkbox">Checkbox:</label>
+            <input type="checkbox" id="checkbox" name="checkbox"><br>
+            <label for="radio1">Radio 1:</label>
+            <input type="radio" id="radio1" name="radio"><br>
+            <label for="radio2">Radio 2:</label>
+            <input type="radio" id="radio2" name="radio"><br>
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color"><br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date"><br>
+            <label for="file">File:</label>
+            <input type="file" id="file" name="file"><br>
+            <label for="number">Number:</label>
+            <input type="number" id="number" name="number"><br>
+            <label for="range">Range:</label>
+            <input type="range" id="range" name="range"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="url">URL:</label>
+            <input type="url" id="url" name="url"><br>
+            <label for="textarea">Textarea:</label>
+            <textarea id="textarea" name="textarea"></textarea><br>
+            <label for="select">Select:</label>
+            <select id="select" name="select">
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+            </select><br>
+            <button type="submit">Submit</button>
+            <input type="reset" value="Reset">
+        </form>
+        <hr>
+    </section>
+
+    <section id="tables">
+        <h2>Table Tags</h2>
+        <table border="1">
+            <caption>Sample Table</caption>
+            <thead>
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Footer</td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr>
+    </section>
+
+    <section id="other">
+        <h2>Other Tags</h2>
+        <details>
+            <summary>Details Tag</summary>
+            More information here.
+        </details>
+        <dialog open>This is a dialog.</dialog>
+        <progress value="70" max="100"></progress>
+        <meter value="0.6">60%</meter>
+        <br>
+        <time datetime="2025-06-30">June 30, 2025</time>
+        <output>42</output>
+        <br>
+        <span>Span tag</span>
+        <div>Div tag</div>
+        <section>Section tag</section>
+        <article>Article tag</article>
+        <aside>Aside tag</aside>
+        <main>Main tag</main>
+        <footer>Footer tag</footer>
+    </section>
+</body>
+</html>
